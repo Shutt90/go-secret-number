@@ -33,6 +33,7 @@ func main() {
 			lives--
 			if lives == 0 {
 				fmt.Println("You lose")
+				fmt.Scanf("h")
 				break
 			}
 			fmt.Println(lives, "lives left")
